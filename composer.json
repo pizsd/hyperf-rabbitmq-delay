@@ -1,0 +1,22 @@
+{
+    "name": "zerduo/rabbitmq-delay",
+    "description": "hyperf-rabbitmq-delay",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "ext-swoole": ">=4.4",
+        "hyperf/amqp": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zerduo\\RabbitmqDelay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pizsd",
+            "email": "zerduo@126.com"
+        }
+    ]
+}
